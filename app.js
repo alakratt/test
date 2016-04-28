@@ -58,6 +58,4 @@ app.use(function(err, req, res, next) {
   });
 });
 //testing
-//testing again
-//testing yet again
 module.exports = app;
