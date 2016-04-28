@@ -23,16 +23,6 @@ router.get('/', function(req, res){
         res.send(results);
     });
 });
-// var monk = require('monk');
-// var db = monk('localhost:27017/testDb');
-
-// router.get('/', function(req, res) {
-//     var collection = db.get('videos');
-//     collection.find({}, function(err, videos){
-//         if (err) throw err;
-//       	res.json(videos);
-//     });
-// });
 
 // router.post('/', function(req, res){
 //     var collection = db.get('videos');
